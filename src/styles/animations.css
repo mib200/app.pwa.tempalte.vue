@@ -1,0 +1,170 @@
+@keyframes rotateSpinner {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes rotateSpinnerNoSkew {
+  0% {
+    transform: rotate(0);
+    transform-origin: 47% 41%;
+  }
+
+  100% {
+    transform: rotate(360deg);
+    transform-origin: 47% 41%;
+  }
+}
+
+@keyframes fadeOutUp {
+  0%,
+  90% {
+    animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    transform: translate3d(0, -100%, 0);
+  }
+}
+
+@keyframes fadeOutDown {
+  0%,
+  90% {
+    animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  0% {
+    opacity: 0;
+    transform: translate3d(0, -100%, 0);
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes fadeInDown {
+  0% {
+    opacity: 1;
+    transform: none;
+  }
+
+  100% {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+  }
+}
+
+@keyframes bounceInUp {
+  0%,
+  100%,
+  60%,
+  75%,
+  90% {
+    animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 5px, 0);
+  }
+
+  40% {
+    opacity: 1;
+    transform: translate3d(0, -7px, 0);
+  }
+
+  75% {
+    transform: translate3d(0, 3px, 0);
+  }
+
+  90% {
+    transform: translate3d(0, -2px, 0);
+  }
+
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes bounceOut {
+  25% {
+    transform: scale3d(0.9, 0.9, 0.9) translate3d(0, 0, 0);
+  }
+
+  50% {
+    /* opacity: 1; */
+    transform: scale3d(1.05, 1.05, 1.05) translate3d(0, 0, 0);
+  }
+
+  75% {
+    /* opacity: 1; */
+    transform: scale3d(0.9, 0.9, 0.9) translate3d(0, 0, 0);
+  }
+
+  100% {
+    /* opacity: 0; */
+    transform: none;
+  }
+}
+
+@keyframes bounce-left {
+  0% {
+    transform: translateX(0);
+  }
+
+  20% {
+    transform: translateX(0);
+  }
+
+  40% {
+    transform: translateX(-4px);
+  }
+
+  50% {
+    transform: translateX(0);
+  }
+
+  60% {
+    transform: translateX(-2px);
+  }
+
+  80% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}

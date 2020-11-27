@@ -1,0 +1,30 @@
+/* stylelint-disable */
+
+:root {
+  --brand-primary-color: rgb(255, 84, 94);
+  --brand-secondary-color: rgb(8, 51, 97);
+  --brand-tertiary-color: rgb(0, 173, 207);
+
+  --dcl-primary-color: rgba(5, 83, 139, 1);
+  --dcl-steel-color: rgba(122, 134, 154, 1);
+  --links-blue-color: rgba(4, 123, 248, 1);
+  --placeholder-color: rgb(210, 210, 210);
+  --selection-color: rgb(195, 235, 229);
+  --facebook-color: rgb(93, 130, 210);
+  --twitter-color: rgb(64, 191, 244);
+  --linkedin-color: rgb(36, 140, 201);
+  --jet-black: rgb(0, 0, 0);
+  --animation-cubic: cubic-bezier(0.2, 0.3, 0.25, 0.9);
+  --animation-bezier: cubic-bezier(0.7, 0, 0.3, 1);
+  --animation-natural: cubic-bezier(0.4, 0, 0.2, 1);
+  --bg-background-primary-color: rgb(0, 76, 63);
+  --bg-background-muted-color: rgba(8, 72, 64, 0.02);
+  --bg-background-form: rgb(26, 32, 44);
+  --text-copy-primary: rgb(203, 213, 224);
+  --text-copy-secondary: rgb(226, 232, 240);
+  --text-blue: rgb(0, 148, 255);
+  --transition-cubic: all 0.08s cubic-bezier(0.2, 0.3, 0.25, 0.9);
+  --transition-smooth: all 0.3s;
+  --transition-bezier: all 1s cubic-bezier(0.7, 0, 0.3, 1);
+  --transition-natural: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}

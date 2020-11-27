@@ -1,0 +1,92 @@
+/* stylelint-disable declaration-no-important */
+
+@import './variables.css';
+
+/* @import './animations.css'; */
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background: rgba(255, 248, 246);
+}
+
+.inset-abs-x-y-center {
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.inset-abs-x-center {
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.inset-abs-y-center {
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+.h-min-screen {
+  min-height: 100%;
+  min-height: 100vh;
+}
+
+/* .h-half {
+  min-height: calc(100vh - 50%);
+} */
+
+.h-min-100-height-without-header {
+  min-height: calc(100vh - 56px);
+}
+
+.modal-wrapper {
+  z-index: 9999;
+}
+
+.bg-blur {
+  backdrop-filter: saturate(180%) blur(20px);
+}
+
+.bg-blur-5 {
+  backdrop-filter: saturate(180%) blur(5px);
+}
+
+.bg-blur-10 {
+  backdrop-filter: saturate(180%) blur(10px);
+}
+
+.button {
+  &[disabled] {
+    opacity: 0.7;
+    cursor: not-allowed;
+  }
+
+  &.loading {
+    @apply --relative --text-transparent !important;
+
+    .ring-loader-container {
+      @apply --visible --opacity-100 !important;
+    }
+  }
+}
+
+.top-100 {
+  top: 100%;
+}
+
+.left-100 {
+  left: 100%;
+}
+
+.right-100 {
+  right: 100%;
+}
+
+.bottom-100 {
+  bottom: 100%;
+}
+
+.opacity-90 {
+  opacity: 0.9;
+}
